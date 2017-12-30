@@ -1,0 +1,82 @@
+/* light black: rgb(19,15,14); rgb(241,238,167);*/
+body {
+  padding: 0px;
+  margin: 0px;
+  color: white;
+  background-color: rgb(19,15,14);
+  background-image: url('./images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+span {
+  color: rgb(0,126,197);
+}
+input {
+  text-align: center;
+  color: rgb(19,15,14);
+}
+::placeholder {
+  opacity: 0.5;
+}
+h1 {
+  padding: 5% 0 5% 0;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 42px;
+}
+#cbmi-form {
+  padding: 2%;
+  font-size: 16px;
+  background-color: rgba(255,255,255,0.1);
+}
+#cbmi-form .row {
+  padding: 2% 0 2% 0;
+}
+#submit-button-container {
+  text-align: center;
+}
+button {
+  border-radius: 10px;
+  border-width: 0px;
+  color: white;
+  background-color: rgb(0,126,197);
+  transition: 0.2s all ease-out;
+}
+button:focus {outline:0;}
+button:hover {
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 1000px;
+}
+#cbmi-answer {
+  width: 80%;
+  padding: 5% 0 5% 5%;
+  text-align: left;
+  font-size: 32px;
+}
+#cbmi-answer p {
+  font-size: 16px;
+  color: grey;
+}
+#too {
+  border-radius: 10px 0 0 10px;
+  width: 12%;
+}
+#skinny {
+  width: 12%;
+}
+#healthy {
+  width: 36%;
+}
+#overweight {
+  width: 12%;
+}
+#obese {
+  border-radius: 0 10px 10px 0;
+  width: 28%;
+}
+@media screen and (max-width: 1200px) {
+  body {
+    background-image: none;
+  }
+}
