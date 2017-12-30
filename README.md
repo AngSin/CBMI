@@ -1,4 +1,4 @@
-Please use the following steps to view this project:
+Please use the following commands to view this project:
 
     git clone https://github.com/AngSin/CBMI.git
     cd CBMI
