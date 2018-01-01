@@ -13,7 +13,7 @@ export default class App extends Component {
       return;
     }
     let CBMI = Number((((chest/0.7067) - LIM)/0.9156) - LIM).toFixed(2);
-    this.setState({ CBMI, chest: '', LIM: '' });
+    this.setState({ CBMI });
     console.log(CBMI/50 * 100);
   }
   render() {
